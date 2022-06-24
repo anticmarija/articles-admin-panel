@@ -7,7 +7,7 @@
 }
 
 .at-table {
-  width: 95%;
+  width: 100%;
 }
 
 .at-layout {
@@ -16,11 +16,19 @@
 
 .at-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 48px;
 }
 
 .at-footer {
   background: #001529;
   color: white;
+}
+
+.at-search {
+  width: 320px;
+  margin-bottom: 12px;
 }

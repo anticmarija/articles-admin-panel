@@ -32,9 +32,9 @@ export interface ArticleType {
   canCreateValueVoucher: boolean;
   canAddToOrderOnlyWithArticleType?: (CanAddToOrderOnlyWithArticleTypeEntity | null)[] | null;
   bundlePlusDifferenceArticle?: BundlePlusDifferenceArticleOrBundleMinusDifferenceArticle | null;
-  bundleMinusDifferenceArticle?: BundlePlusDifferenceArticleOrBundleMinusDifferenceArticle1 | null;
+  bundleMinusDifferenceArticle?: BundlePlusDifferenceArticleOrBundleMinusDifferenceArticle | null;
   canHaveZeroPrice: boolean;
-  defaultDropshipper?: GroupOrDefaultShippingStatusOrDefaultBrandOrDefaultDropshipper1 | null;
+  defaultDropshipper?: GroupOrDefaultShippingStatusOrDefaultBrandOrDefaultDropshipper | null;
 }
 
 export interface GroupOrDefaultShippingStatusOrDefaultBrandOrDefaultDropshipper {
@@ -57,12 +57,7 @@ export interface BundlePlusDifferenceArticleOrBundleMinusDifferenceArticle {
   id: number;
 }
 
-export interface BundlePlusDifferenceArticleOrBundleMinusDifferenceArticle1 {
-  titleWithArticleNumber: string;
-  id: number;
-}
-
-export interface GroupOrDefaultShippingStatusOrDefaultBrandOrDefaultDropshipper1 {
-  id: number;
+export interface Test {
+  acronym: number;
   name: string;
 }
