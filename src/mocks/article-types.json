@@ -1,0 +1,754 @@
+[
+  {
+    "id": 1,
+    "acronym": "ADM",
+    "titleDE": "Administrativer Artikel",
+    "titleFR": "Administrativer Artikel",
+    "titleIT": "Administrativer Artikel",
+    "titleEN": "Administrativer Artikel en",
+    "group": {
+      "id": 20,
+      "name": "Admin"
+    },
+    "defaultShippingStatus": {
+      "id": 3,
+      "name": "versandt"
+    },
+    "sortOrder": 11,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": false,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 1,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [
+      {
+        "id": 3,
+        "acronym": "BOX"
+      },
+      {
+        "id": 5,
+        "acronym": "VAL"
+      }
+    ],
+    "bundlePlusDifferenceArticle": {
+      "titleWithArticleNumber": "EXP-00000688 - Zumba, Hottest Latin Dance",
+      "id": 688
+    },
+    "bundleMinusDifferenceArticle": {
+      "titleWithArticleNumber": "PRD-00003724 - Glückwunschkarte, Test",
+      "id": 3724
+    },
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 2,
+    "acronym": "EXP",
+    "titleDE": "Einzelerlebnis",
+    "titleFR": "Einzelerlebnis",
+    "titleIT": "Einzelerlebnis",
+    "titleEN": "Experience",
+    "group": {
+      "id": 4,
+      "name": "Experience"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 2,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": false,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 295,
+      "name": "HappyshopsEvents"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 11,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": true,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 3,
+    "acronym": "BOX",
+    "titleDE": "Erlebnisbox",
+    "titleFR": "Erlebnisbox",
+    "titleIT": "Erlebnisbox",
+    "titleEN": "",
+    "group": {
+      "id": 4,
+      "name": "Experience"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 1,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": false,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 295,
+      "name": "HappyshopsEvents"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 8,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": true,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [
+      {
+        "id": 5,
+        "acronym": "VAL"
+      },
+      {
+        "id": 6,
+        "acronym": "DSA"
+      }
+    ],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 4,
+    "acronym": "PRD",
+    "titleDE": "Geschenkartikel",
+    "titleFR": "Geschenkartikel",
+    "titleIT": "Geschenkartikel",
+    "titleEN": "",
+    "group": {
+      "id": 11,
+      "name": "Product"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 5,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": true,
+    "defaultDropshipper": {
+      "id": 106,
+      "name": "SVZ (Schweizer Versand Zentrum)"
+    },
+    "defaultBrand": {
+      "id": 2,
+      "name": "TOP"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": true,
+    "canResendArticlesInOrder": true,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 12,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 5,
+    "acronym": "VAL",
+    "titleDE": "Wertgutschein",
+    "titleFR": "Wertgutschein",
+    "titleIT": "Wertgutschein",
+    "titleEN": "",
+    "group": {
+      "id": 4,
+      "name": "Experience"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 0,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 676,
+      "name": "HappyshopsVoucher"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 13,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": true,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 6,
+    "acronym": "DSA",
+    "titleDE": "Dropshipping Artikel",
+    "titleFR": "Dropshipping Artikel",
+    "titleIT": "Dropshipping Artikel",
+    "titleEN": "",
+    "group": {
+      "id": 11,
+      "name": "Product"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 3,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": true,
+    "defaultBrand": {
+      "id": 2,
+      "name": "TOP"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": true,
+    "canResendArticlesInOrder": true,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 10,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 8,
+    "acronym": "DS2",
+    "titleDE": "Dropshipping 2 Artikel",
+    "titleFR": "Dropshipping 2 Artikel",
+    "titleIT": "Dropshipping 2 Artikel",
+    "titleEN": "",
+    "group": {
+      "id": 11,
+      "name": "Product"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 4,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": true,
+    "defaultBrand": {
+      "id": 2,
+      "name": "TOP"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": true,
+    "canResendArticlesInOrder": true,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 9,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": true,
+    "isBundle": false,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 9,
+    "acronym": "VER",
+    "titleDE": "Versicherung",
+    "titleFR": "Versicherung",
+    "titleIT": "Versicherung",
+    "titleEN": "",
+    "group": {
+      "id": 18,
+      "name": "Service"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 7,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 6,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 10,
+    "acronym": "RAB",
+    "titleDE": "Rabatt",
+    "titleFR": "Rabatt",
+    "titleIT": "Rabatt",
+    "titleEN": "",
+    "group": {
+      "id": 18,
+      "name": "Service"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 9,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 14,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 11,
+    "acronym": "POR-PRD",
+    "titleDE": "Porto PRD",
+    "titleFR": "Porto PRD",
+    "titleIT": "Porto PRD",
+    "titleEN": "",
+    "group": {
+      "id": 18,
+      "name": "Service"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 13,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": true,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 3,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 12,
+    "acronym": "POR-EXP",
+    "titleDE": "Porto EXP",
+    "titleFR": "Porto EXP",
+    "titleIT": "Porto EXP",
+    "titleEN": "Porto EXP",
+    "group": {
+      "id": 18,
+      "name": "Service"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 14,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": true,
+    "moreThanOneDropshipper": true,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": true,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 2,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": true,
+    "isReadyForBundles": true,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 13,
+    "acronym": "MAH",
+    "titleDE": "Mahngebühr",
+    "titleFR": "Mahngebühr",
+    "titleIT": "Mahngebühr",
+    "titleEN": "",
+    "group": {
+      "id": 62,
+      "name": "Cost"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 8,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": true,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 5,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 20,
+    "acronym": "PAY",
+    "titleDE": "Transaktionskosten",
+    "titleFR": "Transaktionskosten",
+    "titleIT": "Transaktionskosten",
+    "titleEN": "",
+    "group": {
+      "id": 62,
+      "name": "Cost"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 10,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 670,
+      "name": "HappyshopsGeneral"
+    },
+    "canAddToOrder": true,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 4,
+    "isContentBoxManageable": false,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": false,
+    "isBundle": false,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 21,
+    "acronym": "BDL",
+    "titleDE": "Bundle",
+    "titleFR": "Bundle",
+    "titleIT": "Bundle",
+    "titleEN": "Bundle",
+    "group": {
+      "id": 63,
+      "name": "Bundle"
+    },
+    "defaultShippingStatus": {
+      "id": 2,
+      "name": "freigegeben"
+    },
+    "sortOrder": 6,
+    "isChoEnabled": true,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": false,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 671,
+      "name": "HappyshopsBundle"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": true,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 1,
+      "titleDE": "sofort"
+    },
+    "addToOrderPriority": 7,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": true,
+    "isReadyForBundles": false,
+    "isFrontendPage": true,
+    "isBundle": true,
+    "isStockManagementAllowed": true,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": false,
+    "canAddToOrderOnlyWithArticleType": [],
+    "bundlePlusDifferenceArticle": {
+      "titleWithArticleNumber": "RAB-00045250 - RAB, Unter RAB",
+      "id": 45250
+    },
+    "bundleMinusDifferenceArticle": {
+      "titleWithArticleNumber": "RAB-00045250 - RAB, Unter RAB",
+      "id": 45250
+    },
+    "canHaveZeroPrice": false
+  },
+  {
+    "id": 22,
+    "acronym": "TEtetetetc -1",
+    "titleDE": "TEST BUNDLE de",
+    "titleFR": "TEST BUNDLE fr",
+    "titleIT": "TEST BUNDLE it",
+    "titleEN": "TEST BUNDLE eng",
+    "group": {
+      "id": 63,
+      "name": "Bundle"
+    },
+    "defaultShippingStatus": {
+      "id": 1,
+      "name": "bestellt"
+    },
+    "sortOrder": 12,
+    "isChoEnabled": false,
+    "allowedWithDropshipper": true,
+    "allowedWithoutDropshipper": true,
+    "canHaveStock": false,
+    "moreThanOneDropshipper": false,
+    "defaultBrand": {
+      "id": 199,
+      "name": "Casdon"
+    },
+    "canAddToOrder": false,
+    "addOnlyIfExistsInOrder": false,
+    "canResendArticlesInOrder": false,
+    "isActive": false,
+    "hasStatistic": true,
+    "defaultDeliveryTime": {
+      "id": 4,
+      "titleDE": "2 Wochen"
+    },
+    "addToOrderPriority": 0,
+    "isContentBoxManageable": true,
+    "isReadyForDeals": false,
+    "isReadyForBundles": false,
+    "isFrontendPage": true,
+    "isBundle": true,
+    "isStockManagementAllowed": false,
+    "canCreateExperienceVoucher": false,
+    "canCreateBoxVoucher": false,
+    "canCreateValueVoucher": true,
+    "canAddToOrderOnlyWithArticleType": [
+      {
+        "id": 4,
+        "acronym": "PRD"
+      },
+      {
+        "id": 6,
+        "acronym": "DSA"
+      }
+    ],
+    "canHaveZeroPrice": false
+  }
+]
