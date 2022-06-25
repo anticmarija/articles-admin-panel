@@ -17,7 +17,7 @@ const sortByParam = (a: ArticleType, b: ArticleType, param: keyof ArticleType): 
   return 0;
 };
 
-const getArticleTypesBrands = (data: ArticleType[] | undefined): { text: string; value: string }[] => {
+export const getArticleTypesBrands = (data: ArticleType[] | undefined): { text: string; value: string }[] => {
   const defaultBrandsSet = new Set(data?.map((article) => article.defaultBrand.name));
   return Array.from(defaultBrandsSet).map((brandLabel: string) => ({
     text: brandLabel,

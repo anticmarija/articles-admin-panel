@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react';
-import { Table, Layout, PageHeader, Input } from 'antd';
+import { Input, Layout, PageHeader, Table } from 'antd';
 import type { TablePaginationConfig, TableProps } from 'antd/lib/table';
+import { useEffect, useState } from 'react';
 
-import { ArticleType } from './types';
 import { fetchArticleTypes } from './api/fetchArticleTypes';
-import useDebounce from './hooks/useDebounce';
-import { getColumns } from './config';
 import './App.css';
+import { getColumns } from './config';
+import useDebounce from './hooks/useDebounce';
+import { ArticleType } from './types';
 
 const { Search } = Input;
 
@@ -69,7 +69,6 @@ const App = (): JSX.Element => {
         <PageHeader className="at-page-header" title="Article Types Admin Panel" />
       </Layout.Header>
       <Layout.Content className="at-content">
-        {/* TODO create separate component */}
         <Search
           className="at-search"
           allowClear
