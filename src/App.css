@@ -1,17 +1,13 @@
+.at-layout {
+  min-height: 100vh;
+}
+
 .at-page-header {
   padding: 12px 24px;
 }
 
 .at-page-header span {
   color: white;
-}
-
-.at-table {
-  width: 100%;
-}
-
-.at-layout {
-  min-height: 100vh;
 }
 
 .at-content {
@@ -26,9 +22,4 @@
 .at-footer {
   background: #001529;
   color: white;
-}
-
-.at-search {
-  width: 320px;
-  margin-bottom: 12px;
 }
